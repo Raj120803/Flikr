@@ -1,0 +1,51 @@
+/* Joinsection.css */
+
+.join-section {
+    background-color: white;
+    color: #000000;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .join-section:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  }
+  
+  .join-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    color: black;
+  }
+  
+  .join-description {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: #b2adad;
+    line-height: 1.5;
+  }
+  
+  .join-button {
+    padding: 12px 24px;
+    font-size: 1em;
+    color: #1a1a1a;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .join-button:hover {
+    background-color: #ff7f00;
+    transform: translateY(-2px);
+  }
+  
+  .join-button:active {
+    transform: translateY(0);
+  }
+  

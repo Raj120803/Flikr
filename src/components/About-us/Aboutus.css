@@ -1,0 +1,162 @@
+/* Base styling for the entire About Us page */
+.about-us-page {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a; /* Dark theme */
+    color: #e0e0e0; /* Light text */
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Header section styling */
+  .about-header {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #333333;
+    margin-bottom: 40px;
+  }
+  
+  .about-header h1 {
+    font-size: 2.8em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .about-header p {
+    font-size: 1.2em;
+    color: #cccccc;
+  }
+  
+  /* Mission section styling */
+  .mission-section {
+    text-align: center;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+  }
+  
+  .mission-section h2 {
+    font-size: 2.2em;
+    color: #ffcc00;
+  }
+  
+  .mission-section p {
+    font-size: 1.1em;
+    color: #e0e0e0;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Team section styling */
+  .team-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .team-section h2 {
+    font-size: 2.2em;
+    color: #ffcc00;
+    margin-bottom: 30px;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .team-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .team-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  .team-member {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .team-member:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .avatar-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #444;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 1.2em;
+    color: #ffcc00;
+    margin: 10px 0;
+  }
+  
+  .team-member p {
+    color: #cccccc;
+    font-size: 0.9em;
+  }
+  
+  /* Values section styling */
+  .values-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .values-section h2 {
+    font-size: 2.2em;
+    color: #ffcc00;
+    margin-bottom: 30px;
+  }
+  
+  .values-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .values-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .values-grid {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+  }
+  
+  .value {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .value:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .value h3 {
+    font-size: 1.4em;
+    color: #ffcc00;
+    margin-bottom: 10px;
+  }
+  
+  .value p {
+    color: #cccccc;
+    font-size: 0.95em;
+  }
+  
