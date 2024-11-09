@@ -1,10 +1,15 @@
 /* Main container styling */
-main {
-    position: relative;
+main  {
     display: flex;
+    justify-content: center;
     align-items: center;
-    max-width: 1520px;
-    margin: 0 auto;
+    height: 100vh;
+    background-image: url('D:/flikr/my-app/src/assets/assets/client-images-all/man-in-black-suit-wearing-eye-glasses-sitting-on-gray-sofa-using-macbook-3772622.svg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  
   }
   
   /* Overlay styling if needed */
